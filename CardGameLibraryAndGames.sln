@@ -1,0 +1,29 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGameLibraryAndGames", "CardGameLibraryAndGames\CardGameLibraryAndGames.csproj", "{EC20B608-C976-472C-A58E-EDEBAFFCFE5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGameLibrary", "CardGameLibrary\CardGameLibrary.csproj", "{D14403D0-3A82-4188-8ACF-8C44FD8ED68E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGameTests", "CardGameTests\CardGameTests.csproj", "{C09FFD23-3E67-4F08-B5A4-6C8EE0567D63}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC20B608-C976-472C-A58E-EDEBAFFCFE5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC20B608-C976-472C-A58E-EDEBAFFCFE5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC20B608-C976-472C-A58E-EDEBAFFCFE5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC20B608-C976-472C-A58E-EDEBAFFCFE5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D14403D0-3A82-4188-8ACF-8C44FD8ED68E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14403D0-3A82-4188-8ACF-8C44FD8ED68E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14403D0-3A82-4188-8ACF-8C44FD8ED68E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14403D0-3A82-4188-8ACF-8C44FD8ED68E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C09FFD23-3E67-4F08-B5A4-6C8EE0567D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C09FFD23-3E67-4F08-B5A4-6C8EE0567D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C09FFD23-3E67-4F08-B5A4-6C8EE0567D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C09FFD23-3E67-4F08-B5A4-6C8EE0567D63}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
