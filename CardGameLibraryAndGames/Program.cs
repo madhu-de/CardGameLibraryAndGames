@@ -54,6 +54,12 @@ namespace CardGames
             }
 
             highCardGame.Play(numPlayers);
+
+            foreach (var player in highCardGame.PlayerOfCardsInGame)
+            {
+                ConsoleWriteLinePlayerScore(player.PlayerNumber, false, player.PlayerScore, player.PlayerCards);
+            }
+
             var winners = highCardGame.EvaluateWinners();
             System.Text.StringBuilder sb = new System.Text.StringBuilder();
             sb.Append("Winners are ");
@@ -170,7 +176,7 @@ namespace CardGames
             }
             builder.Append("score of ");
             builder.Append(score);
-            builder.Append(" with cards: ");
+            builder.Append(" with card(s): ");
             foreach (var card in cards)
             {
                 builder.Append(card.ToString());
